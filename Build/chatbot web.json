@@ -1,6 +1,6 @@
 {
 "companyName": "DefaultCompany",
-"productName": "dialogflowUnity",
+"productName": "Unity Chan chatbot",
 "dataUrl": "chatbot web.data.unityweb",
 "wasmCodeUrl": "chatbot web.wasm.code.unityweb",
 "wasmFrameworkUrl": "chatbot web.wasm.framework.unityweb",
