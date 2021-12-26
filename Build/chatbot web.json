@@ -1,6 +1,6 @@
 {
-"companyName": "DefaultCompany",
-"productName": "Unity Chan chatbot",
+"companyName": "Duck Horse Games",
+"productName": "Duck Horse Chatbot",
 "dataUrl": "chatbot web.data.unityweb",
 "wasmCodeUrl": "chatbot web.wasm.code.unityweb",
 "wasmFrameworkUrl": "chatbot web.wasm.framework.unityweb",
