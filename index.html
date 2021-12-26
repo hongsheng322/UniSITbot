@@ -15,14 +15,6 @@
   <body>
     <div class="webgl-content">
       <div id="gameContainer" style="width: 960px; height: 720px"></div>
-      var canvas = document.getElementById('canvas');
-      var ratio = canvas.width / canvas.height;
-   
-      canvas.height = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
-      canvas.width = canvas.height * ratio;
- 
-      canvas.style.position = "absolute";
-      canvas.style.left = ((window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth) / 2 - canvas.width / 2) + "px";   
       <div class="footer">
         <div class="webgl-logo"></div>
         <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
