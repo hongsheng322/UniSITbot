@@ -9,7 +9,7 @@
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas" width=1024 height=768></canvas>
+      <canvas id="unity-canvas" width=960 height=720></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
@@ -58,9 +58,9 @@
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/chatbot web.loader.js";
       var config = {
-        dataUrl: buildUrl + "/chatbot web.data.gz",
-        frameworkUrl: buildUrl + "/chatbot web.framework.js.gz",
-        codeUrl: buildUrl + "/chatbot web.wasm.gz",
+        dataUrl: buildUrl + "/chatbot web.data",
+        frameworkUrl: buildUrl + "/chatbot web.framework.js",
+        codeUrl: buildUrl + "/chatbot web.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Duck Horse Games",
         productName: "Duck Horse Chatbot",
@@ -95,8 +95,8 @@
       } else {
         // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
 
-        canvas.style.width = "1024px";
-        canvas.style.height = "768px";
+        canvas.style.width = "960px";
+        canvas.style.height = "720px";
       }
 
       loadingBar.style.display = "block";
