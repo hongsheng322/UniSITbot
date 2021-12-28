@@ -1,3 +1,3 @@
 # UniSITbot
 
-https://hongsheng322.github.io/UniSITbot/index
+https://hongsheng322.github.io/DuckBot/
