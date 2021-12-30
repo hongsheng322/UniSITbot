@@ -83,6 +83,17 @@
         meta.content = 'width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, shrink-to-fit=yes';
         document.getElementsByTagName('head')[0].appendChild(meta);
         container.className = "unity-mobile";
+        
+        function myFunction() {
+        var txt;
+        if (confirm("Audio might not be working on mobile!")) {
+        txt = "You pressed OK!";
+        } else {
+        txt = "You pressed Cancel!";
+        }
+        document.getElementById("demo").innerHTML = txt;
+        }
+        myFunction();
 
         // To lower canvas resolution on mobile devices to gain some
         // performance, uncomment the following line:
